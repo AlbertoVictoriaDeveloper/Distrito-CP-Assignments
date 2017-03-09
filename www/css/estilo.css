@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "HelveticaNeue-Regular";
+    src: url(../font/HelveticaNeue-Regular.ttf) format("truetype");
+}
+
+
+
+body{
+    margin : 0;
+    padding: 0px;
+
+}
+
+.contenedor{
+   margin: -7% auto;
+   margin-left: 0 ;
+   width: 100% ; 
+   max-width: 1000px;
+   overflow: hidden;
+}
+
+.fondo{
+    position: absolute;
+ background: url(fondo.jpg) no-repeat fixed center;
+
+    
+
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;    
+   height: 98%;
+   width: 99%;
+   margin-left:0px;
+
+}
+
+
+.trasparencia{
+    position: absolute;
+    background:rgba(26, 79, 120, 0.37);
+    height: 100%;
+   width: 100%;
+ 
+    
+    
+}
+
+footer{
+     height: 15%;
+     width: 99%;
+     
+    
+}
+
+
+.footers{
+     position: fixed; 
+     height: 10%;
+     width: 99%;
+     margin-left:0px;
+     background:#1a4f78;
+     bottom: 24px;
+}
+
+
+.footersSecundario{
+     position: absolute; 
+     height: 5%;
+     width: 99%;
+     margin-left:0px;
+     background:#3d6b92;
+     bottom: 0px;
+}
+
+
+.textFooter{
+    font-size: 12px;
+    color: #d2d2d2;
+    font-family:HelveticaNeue-Regular;
+}
+
+.textFooterSecundario{
+    font-size: 9px;
+    color: #d2d2d2; 
+    font-family:HelveticaNeue-Regular;
+}
+
+.mainPanel{
+  position: absolute; 
+  height: 10% ; 
+  width: 30%;
+  border: black;
+  padding: 90;
+  background: red;
+  
+}
